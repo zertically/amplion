@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(python -c \"from amplion.amplion import main; print\\(''imports OK''\\)\")",
+      "Bash(cmd /c \"cd /d C:\\\\Users\\\\isakn\\\\Desktop\\\\CursorProjects\\\\Amplion && python -c \\\\\"import amplion.schemas; print\\('schemas OK'\\)\\\\\" 2>&1\")"
     ]
   }
 }
